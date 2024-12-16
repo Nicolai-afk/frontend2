@@ -11,7 +11,7 @@ import Button from 'react-bootstrap/Button';
 
 import {jwtDecode} from 'jwt-decode'; // Use named import
 import { API_ENDPOINT } from './Api';
-import './Login.css'; // Import your CSS file
+import './login.css'; // Import your CSS file
 
 function Login() {
   const navigate = useNavigate();
