@@ -12,7 +12,7 @@ import Modal from 'react-bootstrap/Modal';
 import Button from 'react-bootstrap/Button';
 
 
-import './Dashboard.css';
+import './dashboard.css';
 
 function Dashboard() {
   const [user, setUser] = useState(null);
