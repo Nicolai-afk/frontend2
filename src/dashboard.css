@@ -1,0 +1,52 @@
+/* General Styling for Dashboard */
+.stussy-navbar {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Main Content Styling */
+.stussy-content {
+  background: #f8f9fa; /* Light gray background */
+  background: var(--stussy-bg, #f8f9fa); /* Fallback for theme flexibility */
+  min-height: 100vh; /* Full viewport height */
+  padding: 20px 0;
+}
+
+/* Category Card Styling */
+.category-card {
+  border: none;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s, box-shadow 0.3s;
+  min-width: 250px; /* Ensure a consistent card size */
+}
+
+/* Hover Effect for Category Cards */
+.category-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Enhanced hover shadow */
+}
+
+/* Category Image Styling */
+.category-image {
+  height: 150px;
+  object-fit: cover; /* Ensures image fits within the specified area */
+  width: 100%; /* Ensures it spans the card width */
+  border-bottom: 1px solid #ddd; /* Optional: separates the image visually */
+}
+
+/* Button Margin Inside Cards */
+.category-card .btn {
+  margin-top: 10px;
+}
+
+/* Spacing Between Rows */
+#categories .row {
+  row-gap: 20px; /* Adds vertical spacing between rows */
+}
+
+/* Debugging Tool for Layout (Remove When Done) */
+* {
+  outline: 1px dashed transparent; /* Use 'red' for debugging */
+}
+

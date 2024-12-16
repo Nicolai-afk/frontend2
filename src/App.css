@@ -1,0 +1,104 @@
+/* Global Styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #E1E8ED; /* Light Twitter background */
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar Styles */
+.navbar {
+  background-color: #1DA1F2; /* Twitter blue */
+  border-bottom: 2px solid #AAB8C2; /* Subtle border at the bottom */
+}
+
+.navbar-brand {
+  font-weight: bold;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.navbar-brand:hover {
+  color: #AAB8C2; /* Light gray on hover */
+}
+
+/* Login Form Styles */
+.login-form {
+  background-color: white;
+  padding: 30px;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  max-width: 400px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.login-logo img {
+  width: 50%; /* Logo size adjusted for Twitter style */
+  margin-bottom: 20px;
+}
+
+h3 {
+  color: #1DA1F2; /* Twitter blue for the heading */
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+.card-body {
+  padding: 30px;
+  font-size: 16px;
+}
+
+.form-control {
+  border-radius: 25px; /* Rounded inputs */
+  padding: 12px 20px;
+  margin-bottom: 15px;
+  border: 1px solid #E1E8ED;
+  box-shadow: none;
+  transition: border 0.3s ease;
+}
+
+.form-control:focus {
+  border-color: #1DA1F2; /* Blue focus border like Twitter */
+}
+
+button.btn-block {
+  background-color: #1DA1F2;
+  color: white;
+  font-weight: bold;
+  border-radius: 25px;
+  padding: 12px 20px;
+  border: none;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease;
+}
+
+button.btn-block:hover {
+  background-color: #1A91DA; /* Darker blue on hover */
+}
+
+/* Error Message Styles */
+p {
+  font-size: 14px;
+  color: red;
+  text-align: center;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 767px) {
+  .login-logo img {
+    width: 60%; /* Adjust logo size on smaller screens */
+  }
+  .login-form {
+    padding: 20px;
+    max-width: 90%;
+  }
+}
+
+@media (min-width: 768px) {
+  .login-logo img {
+    width: 40%; /* Adjust logo size on larger screens */
+  }
+}

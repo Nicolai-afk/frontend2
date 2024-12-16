@@ -1,0 +1,66 @@
+/* Set background with improved visuals */
+body {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Login container adjustments */
+  .login-container {
+    padding-top: 80px; /* Add spacing at the top */
+    padding-bottom: 40px;
+    min-height: 100vh;
+  }
+  
+  /* Form styling */
+  .login-form {
+    background-color: rgba(254, 254, 254, 0.75); /* Dark transparent background */
+    padding: 20px;
+    border-radius: 12px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+  }
+  
+  /* Login title */
+  .login-title {
+    color: #000000;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Card styling */
+  .login-card {
+    background-color: #f8f9fa; /* Light background for contrast */
+    border: none; /* Remove border */
+    border-radius: 10px;
+    padding: 20px;
+  }
+  
+  .login-card-body {
+    padding: 20px;
+  }
+  
+  /* Input fields */
+  .form-control {
+    border: 1px solid #ccc; /* Subtle border */
+    border-radius: 8px; /* Rounded inputs */
+    padding: 10px;
+  }
+  
+  /* Login button */
+  .login-button {
+    background-color: #000; /* Black background */
+    color: #fff; /* White text */
+    font-weight: bold;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .login-button:hover {
+    background-color: #333; /* Slightly lighter on hover */
+  }
+  
+  /* Logo adjustments */
+  .logo-img {
+    width: 80px;
+    height: auto;
+    margin-bottom: 1px;
+  }
+  
